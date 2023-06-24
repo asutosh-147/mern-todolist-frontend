@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=IBM+Plex+Sans:wght@300;400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300;400;500;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  /* margin: 0; */
+}
+body {
+  margin: 0;
+  font-family: 'Poppins';
+  background-image: linear-gradient(to left,#474747,#878787);
+  color: rgb(224, 224, 224);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.header{
+  background-color: #000000;
+}
+.container{
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 0 auto
+}
+
+a{
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+}
+.pages{
+  max-width: 1400px;
+  /* padding: 10px 20px; */
+  margin: 0 auto;
+  color: aliceblue;
+}
+.home{
+  margin: 15px 0;
+  display: flex;
+  column-gap: 50px;
+  align-items: flex-start;
+}
+.workouts{
+  flex-grow: 1;
+}
+.workout-template{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.247);
+  padding: 5px 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px ;
+  box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.29);
+}
+.workout-template span{
+  position: absolute;
+  top:1.1rem;
+  right: 1rem;
+}
+.workout-template h4{
+  color: rgba(0, 255, 183, 0.722);
+  font-weight: 600;
+  font-size: 1.3em;
+  margin: 0;
+  margin-top: 10px ;
+}
+.workout-template p {
+  margin: 8px 0;
+}
+.form{
+  position: sticky;
+  top: 10px;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.207);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  color: #333333;
+}
+.workout-form{
+  height: max-content;
+  
+}
+.workout-form input{
+  outline: none;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff55;
+  padding: 8px;
+  transition: 0.6s;
+}
+.workout-form button{
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 20%;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.685);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.workout-form button:hover{
+  background-color: rgba(0, 219, 157, 0.63);
+  color: #fff;
+}
+.error{
+  scale: 1.1;
+}
+.login{
+  position: sticky;
+  top: 10px;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.689);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  color: #333333;
+  margin: 10% auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
